@@ -17,7 +17,21 @@ Es un kit de herramientas de diseño y visualización OCI (OKIT) es una herramie
 2. Creacion de Virtual Machine en OCI
    #### Menú>Compute>Instances>Create Instance
 
-   ![](https://github.com/johncdoracle/OKIT/blob/main/Images/VM-Create.jpg)
+   #### Completar informacion de AD, Shape, Imagen, Red y cargar llave SSH
+
+![](https://github.com/johncdoracle/OKIT/blob/main/Images/VM-create.jpg)
+
+
+2.1 Crear Internet Gateway
+   #### Menú>Networking>Virtual Cloud Networks>Route Tables 
+   
+2.2 Configurar la Tabla de la Rutas y la SL de la Subred
+   #### Menú>Networking>Virtual Cloud Networks>Route Tables
+
+   
+
+5. Actualizacion del Sistema Operativo
+   #### Conectarse a la VM por SSH y enviar el comando: sudo dnf update -y 
 
    
 
