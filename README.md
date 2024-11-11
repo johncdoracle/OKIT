@@ -85,7 +85,7 @@ Es un kit de herramientas de diseño y visualización, adicionalmente es una her
 
    5.2 Configuracion del usuario en el Sistema Operativo
 
-   #### Conectarse a la VM por SSH y ejecutar los siguientes comandos:
+   #### Conectarse a la VM por SSH y ejecutar el siguiente comando:
 
    #### oci setup config
 
