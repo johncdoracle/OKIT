@@ -7,11 +7,11 @@ Es un kit de herramientas de diseño y visualización OCI (OKIT) es una herramie
 
 ### Pasos para la instalación
 
-1. Creacion de VCN en OCI:
+1. Creacion de la VCN en OCI:
    #### Menú>Networking>Virtual Cloud Networks
-   Seleccionamos Start VCN Wizard
+   Seleccionamos Start VCN Wizard y seguimos el flujo de creacion asignando el nombre, el rango de CIDR, subnets etc.
      
-![](https://github.com/johncdoracle/OKIT/blob/main/Images/Start-Wizard.jpg)
+   ![](https://github.com/johncdoracle/OKIT/blob/main/Images/Start-Wizard.jpg)
 
    
 2. Creacion de Virtual Machine en OCI
@@ -19,11 +19,15 @@ Es un kit de herramientas de diseño y visualización OCI (OKIT) es una herramie
 
    #### Completar informacion de AD, Shape, Imagen, Red y cargar llave SSH
 
-![](https://github.com/johncdoracle/OKIT/blob/main/Images/VM-create.jpg)
+   ![](https://github.com/johncdoracle/OKIT/blob/main/Images/VM-create.jpg)
 
 
 2.1 Crear Internet Gateway
-   #### Menú>Networking>Virtual Cloud Networks>Route Tables 
+   #### Menú>Networking>Virtual Cloud Networks>Internet Gateways
+
+   Asignar nombre y crear
+
+   ![](https://github.com/johncdoracle/OKIT/blob/main/Images/IGW-create.jpg)
    
 2.2 Configurar la Tabla de la Rutas y la SL de la Subred
    #### Menú>Networking>Virtual Cloud Networks>Route Tables
