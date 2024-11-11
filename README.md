@@ -73,8 +73,9 @@ Es un kit de herramientas de diseño y visualización, adicionalmente es una her
 
    #### Conectarse a la VM por SSH y ejecutar los siguientes comandos:
    #### sudo usermod -aG docker opc
+   #### Hacer logout y login para que el usuario tome los cambios
 
-5. Instalacion y Configuracion de OCI CLI
+6. Instalacion y Configuracion de OCI CLI
 
    5.1 Para la instalacion de la linea de comando de OCI debemos seguir los siguientes pasos:
 
@@ -120,7 +121,7 @@ Es un kit de herramientas de diseño y visualización, adicionalmente es una her
    ![](https://github.com/johncdoracle/OKIT/blob/main/Images/API-Key-create-5.jpg)
 
 
-6. Creacion de la imagen de docker de OKIT
+7. Creacion de la imagen de docker de OKIT
 
    6.1 Compilacion y crecion de la imagen desde el repositorio de git
    
