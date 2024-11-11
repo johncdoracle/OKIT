@@ -118,6 +118,35 @@ Es un kit de herramientas de diseño y visualización OCI (OKIT) es una herramie
    #### Seleccionar la llave recien creada y dar click en View Configuration File
 
    ![](https://github.com/johncdoracle/OKIT/blob/main/Images/API-Key-create-5.jpg)
+
+
+6. Creacion de la imagen de docker de OKIT
+
+   6.1 Compilacion y crecion de la imagen desde el repositorio de git
+   
+    #### Conectarse a la VM por SSH y ejecutar el siguiente comando:
+    #### sudo dnf install git
+    ### docker build --tag okit --no-cache --force-rm https://github.com/oracle/oci-designer-toolkit.git
+    ### Revisar la correcta creacion de la imagen con el comnado: docker images
+
+   6.2 Ejecuion de la imagen de docker y pruebas
+
+   #### Conectarse a la VM por SSH y ejecutar el siguiente comando:
+   #### docker run -d --rm -p 80:80 --volume /home/opc/.oci:/root/.oci --volume /home/opc/.ssh:/root/.ssh --name okit-demo okit
+   #### Realizar pruebas desde la IP publica de la VM
+   #### Ejecutar el comando: docker ps
+   #### Vista de la herramienta en la UI
+
+   ![](https://github.com/johncdoracle/OKIT/blob/main/Images/Okit-demo-run.jpg)
+
+   
+   
+   
+   
+
+   
+
+   
    
 
    
