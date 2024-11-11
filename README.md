@@ -128,7 +128,7 @@ Es un kit de herramientas de diseño y visualización, adicionalmente es una her
     #### Conectarse a la VM por SSH y ejecutar el siguiente comando:
     #### sudo dnf install git
     ### docker build --tag okit --no-cache --force-rm https://github.com/oracle/oci-designer-toolkit.git
-    ### Revisar la correcta creacion de la imagen con el comnado: docker images
+    ### Revisar la correcta creacion de la imagen con el comando: docker images
 
    6.2 Ejecuion de la imagen de docker y pruebas
 
