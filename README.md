@@ -100,7 +100,7 @@ Es un kit de herramientas de diseño y visualización OCI (OKIT) es una herramie
 
    #### Menu Inferior>API Keys
 
-   #### Copiar la llave publica creada en el paso anterior del siguiente path: /home/opc/.oci/okit-demo-keys_public.pem
+   #### Copiar la llave publica creada en el paso anterior en el siguiente path: /home/opc/.oci/okit-demo-keys_public.pem
 
    ![](https://github.com/johncdoracle/OKIT/blob/main/Images/API-Key-create-3.jpg)
 
@@ -115,7 +115,10 @@ Es un kit de herramientas de diseño y visualización OCI (OKIT) es una herramie
 
    #### Debe coincidir con la informacion del API Key
    #### Menu Configuracion del usuario>User Setting>Menu Inferior>API Keys
-   #### Seleccionar la llave recien creada y dar click en 
+   #### Seleccionar la llave recien creada y dar click en View Configuration File
+
+   ![](https://github.com/johncdoracle/OKIT/blob/main/Images/API-Key-create-5.jpg)
+   
 
    
 
