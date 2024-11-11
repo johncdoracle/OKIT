@@ -69,6 +69,42 @@ Es un kit de herramientas de diseño y visualización OCI (OKIT) es una herramie
 
    ![](https://github.com/johncdoracle/OKIT/blob/main/Images/Docker-status.jpg)
 
+   4.3 Configurar usuario OPC para ejecucion de comandos docker:
+
+   #### Conectarse a la VM por SSH y ejecutar los siguientes comandos:
+   #### sudo usermod -aG docker opc
+
+5. Instalacion y Configuracion de OCI CLI
+
+   5.1 Para la instalacion de la linea de comando de OCI debemos seguir los siguientes pasos:
+
+   #### Conectarse a la VM por SSH y ejecutar los siguientes comandos:
+   #### sudo dnf -y install oraclelinux-developer-release-el8
+   #### sudo dnf install python36-oci-cli
+
+   5.2 Configuracion del usuario en el Sistema Operativo
+
+   #### Conectarse a la VM por SSH y ejecutar los siguientes comandos:
+
+   #### oci setup config
+
+   #### Seguir el flujo del comando
+
+   ![](https://github.com/johncdoracle/OKIT/blob/main/Images/API-Key-create-2.jpg)
+
+   5.3 Crear API Key en OCI para configuracion de conectividad via API
+
+   #### Menu Configuracion del usuario>User Setting
+
+   ![](https://github.com/johncdoracle/OKIT/blob/main/Images/API-Key-create-1.jpg)
+
+   #### Menu Inferior>API Keys
+
+   
+
+   
+   
+
     
 
    
