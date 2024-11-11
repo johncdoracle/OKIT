@@ -30,7 +30,7 @@ Es un kit de herramientas de diseño y visualización, adicionalmente es una her
 
    #### Security List
    #### Menú>Networking>Virtual Cloud Networks>Security Lists
-   #### Crear las siguientes entradas en la SL 
+   #### Crear las entradas de Ingress y Egress en la SL
 
    ![](https://github.com/johncdoracle/OKIT/blob/main/Images/SL-create.jpg)
 
