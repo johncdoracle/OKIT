@@ -134,12 +134,16 @@ Es un kit de herramientas de diseño y visualización, adicionalmente es una her
 
    #### Conectarse a la VM por SSH y ejecutar el siguiente comando:
    #### docker run -d --rm -p 80:80 --volume /home/opc/.oci:/root/.oci --volume /home/opc/.ssh:/root/.ssh --name okit-demo okit
-   #### Ejecutar el comando: docker ps
+   #### Para revisar la ejecucion del contanedor en el sitema operativo comando: docker ps
    #### Realizar pruebas desde la IP publica de la VM
   
    #### Vista de la herramienta en la UI
 
    ![](https://github.com/johncdoracle/OKIT/blob/main/Images/Okit-demo-run.jpg)
+
+
+   # Vamos a trabajar con OKIT creando una plantilla y ejecutadola en el Resoucrce manager de OCI !
+   
 
    
 
