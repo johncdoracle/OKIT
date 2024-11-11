@@ -133,11 +133,14 @@ Es un kit de herramientas de diseño y visualización OCI (OKIT) es una herramie
 
    #### Conectarse a la VM por SSH y ejecutar el siguiente comando:
    #### docker run -d --rm -p 80:80 --volume /home/opc/.oci:/root/.oci --volume /home/opc/.ssh:/root/.ssh --name okit-demo okit
-   #### Realizar pruebas desde la IP publica de la VM
    #### Ejecutar el comando: docker ps
+   #### Realizar pruebas desde la IP publica de la VM
+  
    #### Vista de la herramienta en la UI
 
    ![](https://github.com/johncdoracle/OKIT/blob/main/Images/Okit-demo-run.jpg)
+
+   
 
    
    
