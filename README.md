@@ -142,7 +142,7 @@ Es un kit de herramientas de diseño y visualización, adicionalmente es una her
    ![](https://github.com/johncdoracle/OKIT/blob/main/Images/Okit-demo-run.jpg)
 
 
-   # Vamos a trabajar con OKIT creando una plantilla y ejecutadola en el Resoucrce manager de OCI !
+   # Vamos a trabajar con OKIT creando una plantilla y ejecutadola en el Resource Manager de OCI !
    
 
    
