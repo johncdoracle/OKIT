@@ -42,8 +42,10 @@ Es un kit de herramientas de diseño y visualización OCI (OKIT) es una herramie
    ![](https://github.com/johncdoracle/OKIT/blob/main/Images/VM-create.jpg)
 
 
-5. Actualizacion del Sistema Operativo
-   #### Conectarse a la VM por SSH y enviar el comando: sudo dnf update -y 
+3. Actualizacion del Sistema Operativo
+   #### Conectarse a la VM por SSH y enviar el comando: sudo dnf update -y
+
+   ![](https://github.com/johncdoracle/OKIT/blob/main/Images/DNF-update.jpg)
 
    
 
