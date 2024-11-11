@@ -47,6 +47,30 @@ Es un kit de herramientas de diseño y visualización OCI (OKIT) es una herramie
 
    ![](https://github.com/johncdoracle/OKIT/blob/main/Images/DNF-update.jpg)
 
+4. Instalacion y configuracion del motor y el cliente de Docker
+
+   4.1 Instalar el repositorio de descarga de la version CE de Docker
+   
+   #### Conectarse a la VM por SSH y ejecutar los siguientes comandos:
+
+   #### sudo dnf install -y dnf-utils zip unzip
+   #### sudo dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+   #### sudo dnf install docker-ce docker-ce-cli containerd.io
+
+   4.2 Iniciar el servicio y configurar Docker para inicio con el Sistema Operativo
+
+   #### Conectarse a la VM por SSH y ejecutar los siguientes comandos:
+
+   #### sudo systemctl start docker
+   #### sudo systemctl enable docker
+   #### sudo systemctl status docker
+
+   El servicio debe estar en el siguiente estado
+
+   ![](https://github.com/johncdoracle/OKIT/blob/main/Images/Docker-status.jpg)
+
+    
+
    
 
    
